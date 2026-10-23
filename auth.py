@@ -1,3 +1,4 @@
+import database from sqlite3
 from database import get_connection
 
 def authenticate(username, password):
